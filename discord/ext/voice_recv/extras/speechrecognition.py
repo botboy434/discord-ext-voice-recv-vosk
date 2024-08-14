@@ -78,7 +78,7 @@ else:
             *,
             process_cb: Optional[SRProcessDataCB] = None,
             text_cb: Optional[SRTextCB] = None,
-            default_recognizer: SRRecognizerMethod = 'google',
+            default_recognizer: SRRecognizerMethod = 'vosk',
             phrase_time_limit: int = 10,
             ignore_silence_packets: bool = True,
         ):
